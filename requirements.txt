@@ -1,0 +1,8 @@
+discord
+python-dotenv
+asyncio
+schedule
+pytz
+pandas
+xlwt
+xlrd
