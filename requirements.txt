@@ -1,9 +1,0 @@
-discord
-python-dotenv
-asyncio
-schedule
-pytz
-pandas
-openpyxl
-xlwt
-xlrd
