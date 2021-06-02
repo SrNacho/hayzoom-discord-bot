@@ -1,5 +1,6 @@
 <div align="center">Suggestions are welcomed</div>
 <br>
+
 ---
 # hayzoom-discord-bot
 Discord bot that reads an excel with dates and sends a message when you have an equity with the day
