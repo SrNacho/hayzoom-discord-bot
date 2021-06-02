@@ -3,7 +3,9 @@ import pandas as pd #libreria para leer el excel
 from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 from datetime import datetime
-tz_bsas = pytz.timezone('America/Argentina/Buenos_Aires') #timezone de argentina
+import os
+TIME_ZONE = os.getenv('TIME_ZONE')
+tz_bsas = pytz.timezone(TIME_ZONE) #timezone de argentina
 
 def start():
     datetime_bsas = datetime.now(tz_bsas)  # guarda la hora de bsas
